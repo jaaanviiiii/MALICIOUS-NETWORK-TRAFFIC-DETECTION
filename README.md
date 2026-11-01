@@ -65,7 +65,6 @@ malicious-network-detection/
 │   ├── main.py                     # FastAPI REST API application & endpoints
 │   ├── predict.py                  # Single & batch inference engine with threat scoring
 │   ├── preprocess.py               # CIC-IDS2017 cleaning & stratified sampling pipeline
-│   ├── syllabus_demos.py           # Evaluation helper utilities
 │   └── train.py                    # Multi-model training, benchmarking & serialization
 ├── dataset/
 │   ├── processed/
@@ -100,7 +99,6 @@ malicious-network-detection/
 │   └── 02_model_training_and_evaluation.ipynb
 ├── reports/
 │   ├── figures/                    # Generated confusion matrices, feature importance plots
-│   ├── academic_audit.md           # Technical audit on data leakage & cross-day evaluation
 │   ├── evaluation_metrics.json     # Numerical metrics for all trained models
 │   └── model_comparison.csv       # Formatted tabular comparison data
 ├── requirements.txt                # Python dependencies

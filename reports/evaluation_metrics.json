@@ -1,0 +1,81 @@
+{
+    "comparison": [
+        {
+            "Model": "Logistic Regression (Unit 1)",
+            "Accuracy": 0.9339,
+            "Precision": 0.9343,
+            "Recall": 0.9339,
+            "Weighted_F1": 0.934,
+            "Macro_F1": 0.9334,
+            "ROC_AUC": 0.9733,
+            "Train_Time_Sec": 5.97,
+            "Inference_Time_Sec": 0.0051,
+            "Artifact": "logistic_regression.joblib"
+        },
+        {
+            "Model": "Gaussian Naive Bayes (Unit 2)",
+            "Accuracy": 0.6446,
+            "Precision": 0.7942,
+            "Recall": 0.6446,
+            "Weighted_F1": 0.6115,
+            "Macro_F1": 0.621,
+            "ROC_AUC": 0.8245,
+            "Train_Time_Sec": 0.14,
+            "Inference_Time_Sec": 0.0344,
+            "Artifact": "naive_bayes.joblib"
+        },
+        {
+            "Model": "Decision Tree (Unit 2)",
+            "Accuracy": 0.9933,
+            "Precision": 0.9933,
+            "Recall": 0.9933,
+            "Weighted_F1": 0.9933,
+            "Macro_F1": 0.9932,
+            "ROC_AUC": 0.9958,
+            "Train_Time_Sec": 3.31,
+            "Inference_Time_Sec": 0.0159,
+            "Artifact": "decision_tree.joblib"
+        },
+        {
+            "Model": "K-Nearest Neighbors (Unit 2)",
+            "Accuracy": 0.9825,
+            "Precision": 0.9826,
+            "Recall": 0.9825,
+            "Weighted_F1": 0.9825,
+            "Macro_F1": 0.9823,
+            "ROC_AUC": 0.9953,
+            "Train_Time_Sec": 0.0,
+            "Inference_Time_Sec": 0.8216,
+            "Artifact": "knn.joblib"
+        },
+        {
+            "Model": "Support Vector Machine (Unit 2)",
+            "Accuracy": 0.9255,
+            "Precision": 0.9271,
+            "Recall": 0.9255,
+            "Weighted_F1": 0.9257,
+            "Macro_F1": 0.9251,
+            "ROC_AUC": 0.974,
+            "Train_Time_Sec": 4.69,
+            "Inference_Time_Sec": 0.0045,
+            "Artifact": "svm.joblib"
+        },
+        {
+            "Model": "Random Forest (Unit 3)",
+            "Accuracy": 0.9977,
+            "Precision": 0.9977,
+            "Recall": 0.9977,
+            "Weighted_F1": 0.9977,
+            "Macro_F1": 0.9977,
+            "ROC_AUC": 0.9999,
+            "Train_Time_Sec": 5.22,
+            "Inference_Time_Sec": 0.0719,
+            "Artifact": "random_forest.joblib"
+        }
+    ],
+    "best_model": "Random Forest (Unit 3)",
+    "best_accuracy": 0.9977,
+    "best_f1": 0.9977,
+    "best_macro_f1": 0.9977,
+    "best_roc_auc": 0.9999
+}

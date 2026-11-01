@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,Weighted_F1,Macro_F1,ROC_AUC,Train_Time_Sec,Inference_Time_Sec,Artifact
+Logistic Regression (Unit 1),0.9339,0.9343,0.9339,0.934,0.9334,0.9733,5.97,0.0051,logistic_regression.joblib
+Gaussian Naive Bayes (Unit 2),0.6446,0.7942,0.6446,0.6115,0.621,0.8245,0.14,0.0344,naive_bayes.joblib
+Decision Tree (Unit 2),0.9933,0.9933,0.9933,0.9933,0.9932,0.9958,3.31,0.0159,decision_tree.joblib
+K-Nearest Neighbors (Unit 2),0.9825,0.9826,0.9825,0.9825,0.9823,0.9953,0.0,0.8216,knn.joblib
+Support Vector Machine (Unit 2),0.9255,0.9271,0.9255,0.9257,0.9251,0.974,4.69,0.0045,svm.joblib
+Random Forest (Unit 3),0.9977,0.9977,0.9977,0.9977,0.9977,0.9999,5.22,0.0719,random_forest.joblib

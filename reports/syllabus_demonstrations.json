@@ -1,0 +1,95 @@
+{
+    "linear_regression": {
+        "features": [
+            "Total Fwd Packets",
+            "Total Backward Packets",
+            "Total Length of Fwd Packets",
+            "Total Length of Bwd Packets",
+            "Flow Packets/s",
+            "Average Packet Size"
+        ],
+        "target": "Flow Duration (log1p transformed)",
+        "r2_score": 0.3591,
+        "mae": 4.0066,
+        "rmse": 4.5726,
+        "mse": 20.9088
+    },
+    "regularization": {
+        "l2_ridge": {
+            "accuracy": 0.9284,
+            "f1_score": 0.9285,
+            "active_coefficients": 69
+        },
+        "l1_lasso": {
+            "accuracy": 0.916,
+            "f1_score": 0.9161,
+            "zeroed_coefficients": 19,
+            "active_coefficients": 50
+        }
+    },
+    "overfitting_sweep": {
+        "depths": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            10,
+            14,
+            18,
+            22,
+            26
+        ],
+        "train_accuracies": [
+            0.6924,
+            0.829,
+            0.8939,
+            0.9665,
+            0.9813,
+            0.9947,
+            0.9976,
+            0.9989,
+            0.9999,
+            1.0
+        ],
+        "test_accuracies": [
+            0.6928,
+            0.8299,
+            0.8963,
+            0.9671,
+            0.9799,
+            0.9903,
+            0.9914,
+            0.9925,
+            0.9935,
+            0.9933
+        ],
+        "plot_path": "C:\\Users\\HP\\OneDrive\\Desktop\\malicious-network-detection\\reports\\figures\\overfitting_underfitting_curve.png"
+    },
+    "cross_validation": {
+        "cv_folds": 5,
+        "cv_scores": [
+            0.9918,
+            0.9883,
+            0.9882,
+            0.9883,
+            0.9925
+        ],
+        "cv_mean": 0.9898,
+        "cv_std": 0.0019,
+        "grid_search_best_params": {
+            "criterion": "entropy",
+            "max_depth": 16,
+            "min_samples_split": 5
+        },
+        "grid_search_best_score": 0.9926
+    },
+    "unsupervised_kmeans": {
+        "algorithm": "K-Means Clustering (k=2)",
+        "unsupervised_accuracy": 0.6264,
+        "cluster_0_size": 8659,
+        "cluster_1_size": 1341,
+        "cluster_0_malicious_ratio": 0.3962,
+        "cluster_1_malicious_ratio": 0.7726
+    }
+}
